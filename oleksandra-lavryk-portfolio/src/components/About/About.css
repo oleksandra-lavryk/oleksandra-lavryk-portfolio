@@ -1,0 +1,28 @@
+#about-section {
+  padding-top: 85px;
+  padding-bottom: 150px;
+  background-color: #83A26C;
+}
+
+#about-section>.container {
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  max-width: 1050px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.about-text p {
+  margin-top: 60px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+}
+
+.about-photo {
+  margin-left: 200px;
+}
