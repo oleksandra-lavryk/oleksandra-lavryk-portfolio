@@ -1,5 +1,5 @@
-import "./Project.css";
-export default function About({ project }) {
+import "./ProjectItem.css";
+export default function ProjectItem({ project }) {
   return (
     <>
       <div className="project-item">

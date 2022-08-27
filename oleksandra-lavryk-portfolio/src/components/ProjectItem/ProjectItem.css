@@ -1,17 +1,3 @@
-#projects-section {
-  padding: 150px 0;
-}
-
-#projects-section h2 {
-  margin-bottom: 150px;
-}
-
-.project-grid-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 68px;
-}
-
 .project-item {
   position: relative;
   height: 430px;

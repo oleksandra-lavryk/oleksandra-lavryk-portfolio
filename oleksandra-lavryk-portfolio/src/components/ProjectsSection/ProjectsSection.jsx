@@ -1,14 +1,14 @@
-import "./Projects.css";
+import "./ProjectsSection.css";
 import projectList from "../../data/projects";
-import Project from "../Project/Project";
+import ProjectItem from "../ProjectItem/ProjectItem";
 
-export default function About() {
+export default function ProjectsSection() {
   return (
     <section id="projects-section">
       <h2>Projects</h2>
       <div className="container project-grid-wrapper">
         {projectList.map((item) => {
-          return <Project key={item.id} project={item} />;
+          return <ProjectItem key={item.id} project={item} />;
         })}
       </div>
     </section>
