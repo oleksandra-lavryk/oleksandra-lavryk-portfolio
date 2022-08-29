@@ -6,7 +6,7 @@ export default function Education() {
       <div className="container">
         <h2>Education</h2>
 
-        <div className="education-item">
+        <div className="text-paragraph-item">
           <p>
             Kyiv National University of Civil Engineering and Architecture | Sep
             2018 – Dec 2019
@@ -16,7 +16,7 @@ export default function Education() {
             Department. Master degree.
           </p>
         </div>
-        <div className="education-item">
+        <div className="text-paragraph-item">
           <p>
             Kyiv National University of Civil Engineering and Architecture | Sep
             2015 – Jun 2018

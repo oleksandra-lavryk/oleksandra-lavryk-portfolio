@@ -1,6 +1,16 @@
 const projectList = [
   {
     id: 1,
+    image: "assets/project-4.png",
+    name: "KAOSPILOT toolbox",
+    technologies: "ReactJS",
+    description:
+      " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.",
+    url: "https://staging-kp-toolbox-fp-class21.herokuapp.com/",
+    gitUrl: "https://github.com/HackYourFuture-CPH/kp-toolbox-fp-class21",
+  },
+  {
+    id: 2,
     image: "assets/project-1.png",
     name: "Meal Sharing",
     technologies: "ReactJS, NodeJS, MySQL, Heroku",
@@ -10,7 +20,7 @@ const projectList = [
     gitUrl: "https://github.com/oleksandra-lavryk/meal-sharing",
   },
   {
-    id: 2,
+    id: 3,
     image: "assets/project-3.png",
     name: "GitHub User Searcher",
     technologies: "ReactJS",
@@ -20,7 +30,7 @@ const projectList = [
     gitUrl: "https://github.com/oleksandra-lavryk/github-user-searcher",
   },
   {
-    id: 3,
+    id: 4,
     image: "assets/project-2.png",
     name: "ToDo List",
     technologies: "ReactJS",
@@ -30,4 +40,4 @@ const projectList = [
     gitUrl: "https://github.com/oleksandra-lavryk/todo-list",
   },
 ];
-export default projectList;
+export { projectList };

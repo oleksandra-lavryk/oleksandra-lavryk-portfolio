@@ -1,5 +1,5 @@
 import "./ProjectsSection.css";
-import projectList from "../../data/projects";
+import { projectList } from "../../data/projects";
 import ProjectItem from "../ProjectItem/ProjectItem";
 
 export default function ProjectsSection() {

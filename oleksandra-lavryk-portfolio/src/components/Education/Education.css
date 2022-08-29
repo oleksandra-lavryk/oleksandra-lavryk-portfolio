@@ -5,45 +5,8 @@
   background-position: 98% top;
 }
 
-#education-section h2 {
-  margin-bottom: 150px;
-}
 
-.education-item {
-  position: relative;
-  text-align: left;
-  padding-left: 45px;
-  padding-top: 5px;
-  max-width: 890px;
-  margin: auto;
-}
-
-.education-item:first-of-type {
-  margin-bottom: 60px;
-}
-
-.education-item p {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 1px;
-}
-
-.education-item p:last-child {
-  font-weight: 400;
-  margin-top: 15px;
-  line-height: 30px;
-  letter-spacing: 0;
-}
-
-.education-item::before {
-  display: block;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 33px;
-  height: 33px;
+#education-section .text-paragraph-item::before {
   background-image: url("../../../public/assets/education-pin.svg");
   background-repeat: no-repeat;
   background-size: contain;

@@ -1,0 +1,14 @@
+#experience-section {
+  padding-bottom: 150px;
+  background-image: url("../../../public/assets/experience-background.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+#experience-section .text-paragraph-item::before {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../../public/assets/experience-pin.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
