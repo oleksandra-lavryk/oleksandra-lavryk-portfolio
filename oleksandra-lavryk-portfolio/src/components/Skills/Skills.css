@@ -1,0 +1,101 @@
+#skills-section {
+  padding: 150px 0;
+  background: #83A26C;
+}
+
+#skills-section h2,
+.skill-item {
+  color: #ffffff;
+}
+
+.skill-container {
+  position: relative;
+  width: 650px;
+  height: 650px;
+  margin: auto;
+
+}
+
+.skill-background-image {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../../../public/assets/skills-background.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  animation: rotating 14s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    -ms-transform: translate(-50%, -50%) rotate(0deg);
+    -moz-transform: translate(-50%, -50%) rotate(0deg);
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    -o-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    -ms-transform: translate(-50%, -50%) rotate(360deg);
+    -moz-transform: translate(-50%, -50%) rotate(360deg);
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    -o-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.skill-item {
+  position: absolute;
+  border-radius: 50%;
+  width: 120px;
+  line-height: 120px;
+  height: 120px;
+  background: #2D5413;
+  left: calc(50% - 60px);
+  top: calc(50% - 60px);
+  font-size: 20px;
+}
+
+.skill-item:first-child {
+  transform: translateX(325px);
+}
+
+.skill-item:nth-child(2) {
+  transform: rotate(36deg) translateX(325px) rotate(-36deg);
+}
+
+.skill-item:nth-child(3) {
+  transform: rotate(72deg) translateX(325px) rotate(-72deg);
+}
+
+.skill-item:nth-child(4) {
+  transform: rotate(108deg) translateX(325px) rotate(-108deg);
+}
+
+.skill-item:nth-child(5) {
+  transform: rotate(144deg) translateX(325px) rotate(-144deg);
+}
+
+.skill-item:nth-child(6) {
+  transform: rotate(180deg) translateX(325px) rotate(-180deg);
+}
+
+.skill-item:nth-child(7) {
+  transform: rotate(216deg) translateX(325px) rotate(-216deg);
+}
+
+.skill-item:nth-child(8) {
+  transform: rotate(252deg) translateX(325px) rotate(-252deg);
+}
+
+.skill-item:nth-child(9) {
+  transform: rotate(288deg) translateX(325px) rotate(-288deg);
+}
+
+.skill-item:nth-child(10) {
+  transform: rotate(324deg) translateX(325px) rotate(-324deg);
+}
