@@ -37,6 +37,7 @@ header>.container {
 }
 
 .languages {
+  /* opacity: 0; */
   margin-left: auto;
 }
 

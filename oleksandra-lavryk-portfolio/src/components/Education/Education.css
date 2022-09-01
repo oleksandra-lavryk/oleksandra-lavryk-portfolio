@@ -1,8 +1,9 @@
 #education-section {
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   background-image: url("../../../public/assets/education-background.svg");
   background-repeat: no-repeat;
   background-position: 98% top;
+  background-size: 350px;
 }
 
 
@@ -10,4 +11,11 @@
   background-image: url("../../../public/assets/education-pin.svg");
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@media screen and (max-width: 1599px) {
+  #education-section {
+    padding-bottom: 70px;
+    background-size: 240px;
+  }
 }

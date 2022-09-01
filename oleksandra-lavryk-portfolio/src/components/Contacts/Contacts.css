@@ -1,5 +1,5 @@
 #contacts-section {
-  padding: 150px 0;
+  padding: 100px 0;
   background-color: #2D5413;
   color: #ffffff;
 }
@@ -27,4 +27,10 @@
 
 .contacts-social-icons a:hover>img {
   filter: invert(1);
+}
+
+@media screen and (max-width: 1599px) {
+  #contacts-section {
+    padding: 70px 0;
+  }
 }

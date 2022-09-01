@@ -1,9 +1,19 @@
 #projects-section {
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 .project-grid-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 68px;
+  gap: 68px;
+}
+
+@media screen and (max-width: 1599px) {
+  #projects-section {
+    padding: 70px 0;
+  }
+
+  .project-grid-wrapper {
+    gap: 60px;
+  }
 }

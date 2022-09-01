@@ -1,6 +1,11 @@
 #skills-section {
-  padding: 150px 0;
+  padding-top: 100px;
+  padding-bottom: 160px;
   background: #83A26C;
+}
+
+#skills-section h2 {
+  margin-bottom: 130px;
 }
 
 #skills-section h2,
@@ -60,42 +65,9 @@
   font-size: 20px;
 }
 
-.skill-item:first-child {
-  transform: translateX(325px);
-}
-
-.skill-item:nth-child(2) {
-  transform: rotate(36deg) translateX(325px) rotate(-36deg);
-}
-
-.skill-item:nth-child(3) {
-  transform: rotate(72deg) translateX(325px) rotate(-72deg);
-}
-
-.skill-item:nth-child(4) {
-  transform: rotate(108deg) translateX(325px) rotate(-108deg);
-}
-
-.skill-item:nth-child(5) {
-  transform: rotate(144deg) translateX(325px) rotate(-144deg);
-}
-
-.skill-item:nth-child(6) {
-  transform: rotate(180deg) translateX(325px) rotate(-180deg);
-}
-
-.skill-item:nth-child(7) {
-  transform: rotate(216deg) translateX(325px) rotate(-216deg);
-}
-
-.skill-item:nth-child(8) {
-  transform: rotate(252deg) translateX(325px) rotate(-252deg);
-}
-
-.skill-item:nth-child(9) {
-  transform: rotate(288deg) translateX(325px) rotate(-288deg);
-}
-
-.skill-item:nth-child(10) {
-  transform: rotate(324deg) translateX(325px) rotate(-324deg);
+@media screen and (max-width: 1599px) {
+  #skills-section {
+    padding-top: 70px;
+    padding-bottom: 130px;
+  }
 }
