@@ -8,8 +8,8 @@ export default function Education() {
 
         <div className="text-paragraph-item">
           <p>
-            Kyiv National University of Civil Engineering and Architecture | Sep
-            2018 – Dec 2019
+            Kyiv National University of Civil Engineering and Architecture
+            <span> | Sep 2018 – Dec 2019</span>
           </p>
           <p>
             Faculty of Automation and Information Technology. Project Management
@@ -18,8 +18,8 @@ export default function Education() {
         </div>
         <div className="text-paragraph-item">
           <p>
-            Kyiv National University of Civil Engineering and Architecture | Sep
-            2015 – Jun 2018
+            Kyiv National University of Civil Engineering and Architecture
+            <span> | Sep 2015 – Jun 2018</span>
           </p>
           <p>
             Faculty of Automation and Information Technology. Bachelor degree.

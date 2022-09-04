@@ -4,9 +4,6 @@
   color: #ffffff;
 }
 
-#contacts-section h2 {
-  margin-bottom: 60px;
-}
 
 .phone-address-wrapper {
   font-size: 20px;
@@ -32,5 +29,25 @@
 @media screen and (max-width: 1599px) {
   #contacts-section {
     padding: 70px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+
+  .phone-address-wrapper {
+    font-size: 16px;
+  }
+
+  .contacts-social-icons {
+    gap: 15px;
+  }
+
+  .contacts-social-icons>a {
+    max-width: 22px;
+  }
+
+  .contacts-social-icons>a>img {
+    max-width: 100%;
   }
 }

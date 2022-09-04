@@ -6,7 +6,10 @@ export default function Experience() {
       <h2>Experience</h2>
 
       <div className="text-paragraph-item">
-        <p> HackYourFuture Denmark, Web Development | Nov 2021 – Aug 2022</p>
+        <p>
+          HackYourFuture Denmark, Web Development
+          <span>| Nov 2021 – Aug 2022</span>
+        </p>
         <p>
           Coding bootcamp designed to cover all aspects of full-stack
           development including HTML, CSS, JavaScript, NodeJS, MySQL and
@@ -14,7 +17,9 @@ export default function Experience() {
         </p>
       </div>
       <div className="text-paragraph-item">
-        <p> Markup Developer | Feb 2020 – Mar 2022</p>
+        <p>
+          Markup Developer <span>| Feb 2020 – Mar 2022</span>
+        </p>
         <p>
           HTML/CSS coding using OpenCart and WordPress templates. I was
           responsible for changing styles and layouts for OpenCart or WordPress

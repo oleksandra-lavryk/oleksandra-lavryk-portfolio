@@ -14,6 +14,23 @@
   }
 
   .project-grid-wrapper {
-    gap: 60px;
+    gap: 50px;
   }
+
+}
+
+@media screen and (max-width: 1399px) {
+
+  .project-grid-wrapper {
+    gap: 35px;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  .project-grid-wrapper {
+    gap: 25px;
+  }
+
 }

@@ -7,6 +7,9 @@ export default function About() {
         <div className="about-text">
           <h3>Hi, My name is Oleksandra.</h3>
           <h3>I am Frontend developer based in Denmark.</h3>
+          <div className="about-photo--mobile">
+            <img src="assets/photo.png" alt="" />
+          </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
             totam nulla aliquam, necessitatibus temporibus veritatis aperiam

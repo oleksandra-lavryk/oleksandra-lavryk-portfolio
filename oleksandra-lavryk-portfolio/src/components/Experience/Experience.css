@@ -2,7 +2,7 @@
   padding: 100px 0;
   background-image: url("../../../public/assets/experience-background.svg");
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: left -2px;
 }
 
 #experience-section .text-paragraph-item::before {
@@ -13,9 +13,57 @@
   background-size: contain;
 }
 
-@media screen and (max-width: 1599px) {
+@media screen and (max-width: 1699px) {
   #experience-section {
     padding: 70px 0;
+    background-size: 290px;
+  }
+}
+
+@media screen and (max-width: 1499px) {
+  #experience-section {
     background-size: 260px;
+  }
+}
+
+@media screen and (max-width: 1299px) {
+  #experience-section {
+    background-size: 225px;
+    background-position: left -15%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  #experience-section {
+    background-size: 200px;
+  }
+
+  #experience-section .text-paragraph-item::before {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #experience-section {
+    background-size: 160px;
+  }
+
+  #experience-section .text-paragraph-item::before {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #experience-section {
+    background-size: 100px;
+    background-position: left -25px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  #experience-section {
+    background-size: 80px;
   }
 }

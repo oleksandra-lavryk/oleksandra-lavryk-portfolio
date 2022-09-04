@@ -1,8 +1,15 @@
 import "./Header.css";
+import { useState } from "react";
+import HeaderMobile from "../HeaderMobile/HeaderMobile";
 
 export default function Header() {
+  const [isMobileOpen, setIsMobileOpen] = useState(false);
+
+  function handleMobileOpen() {
+    setIsMobileOpen(!isMobileOpen);
+  }
   return (
-    <header>
+    <header className={`${isMobileOpen ? "open-mobile" : ""}`}>
       <div className="container">
         <div className="logo">
           <a href="/">
@@ -20,7 +27,18 @@ export default function Header() {
           <span>EN</span>
           <span>UA</span>
         </div>
+        <div
+          className={`mobile-open-burger ${
+            isMobileOpen ? "mobile-open-burger--close" : ""
+          }`}
+          onClick={handleMobileOpen}
+        >
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
+      {isMobileOpen ? <HeaderMobile handleMenu={handleMobileOpen} /> : ""}
     </header>
   );
 }

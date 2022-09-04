@@ -1,0 +1,20 @@
+.mobile-navigation {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #2D5413;
+  z-index: 99;
+  padding: 20px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.mobile-navigation a {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}

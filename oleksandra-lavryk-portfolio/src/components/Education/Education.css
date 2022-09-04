@@ -19,3 +19,33 @@
     background-size: 240px;
   }
 }
+
+@media screen and (max-width: 1399px) {
+  #education-section {
+    background-size: 200px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  #education-section {
+    background-size: 165px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #education-section {
+    background-size: 125px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #education-section {
+    background-size: 90px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  #education-section {
+    background-size: 70px;
+  }
+}
