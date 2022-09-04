@@ -3,7 +3,7 @@ const projectList = [
     id: 1,
     image: "assets/project-4.png",
     name: "KAOSPILOT toolbox",
-    technologies: "ReactJS, Storybook, Swagger, NodeJS, MySQL",
+    technologies: "ReactJS, Storybook, Swagger, NodeJS,KnexJS, MySQL",
     description:
       "The Kaospilot Toolbox app was created as a result of teamwork on the final project of the HackYourFuture bootcamp. I participated in the development of frontend and backend tasks, designing the database scheme and creating migration and seed files.",
     url: "https://staging-kp-toolbox-fp-class21.herokuapp.com/",
@@ -13,7 +13,7 @@ const projectList = [
     id: 2,
     image: "assets/project-1.png",
     name: "Meal Sharing",
-    technologies: "ReactJS, NodeJS, MySQL, KnexJs, Heroku",
+    technologies: "ReactJS, NodeJS, MySQL, KnexJS, Heroku",
     description:
       "This app is designed to share food. Users can add, view, rate, book, and search for meals.",
     url: "http://meal-sharing-lavryk.herokuapp.com/",

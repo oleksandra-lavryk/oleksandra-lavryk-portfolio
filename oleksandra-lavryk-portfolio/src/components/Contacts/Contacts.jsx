@@ -1,4 +1,5 @@
 import "./Contacts.css";
+import cvPdf from "../../data/CV-Lavryk.pdf";
 
 export default function Contacts() {
   return (
@@ -18,7 +19,7 @@ export default function Contacts() {
         <a href="mailto:oleksandra.lavryk96@gmail.com">
           <img src="assets/email.svg" alt="" />
         </a>
-        <a href="#">
+        <a href={cvPdf} download="Lavryk CV" target="_blank" rel="noreferrer">
           <img src="assets/cv-download.svg" alt="" />
         </a>
       </div>
