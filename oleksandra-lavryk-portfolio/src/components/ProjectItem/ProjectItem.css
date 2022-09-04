@@ -115,14 +115,14 @@
   }
 
   .project-item-hover-info h4 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 10px
   }
 
   .project-item-hover-info .description,
   .project-item-hover-info .technologies,
   .project-item-links a {
-    font-size: 14px;
+    font-size: 12px;
   }
 
 }
@@ -146,13 +146,17 @@
   }
 
   .project-item {
-    height: 200px;
+    height: 220px;
+  }
+
+  .project-item-hover-info h4 {
+    font-size: 15px;
   }
 
   .project-item-hover-info .description,
   .project-item-hover-info .technologies,
   .project-item-links a {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 

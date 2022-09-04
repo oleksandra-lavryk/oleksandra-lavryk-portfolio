@@ -6,15 +6,15 @@ export default function About() {
       <div className="container">
         <div className="about-text">
           <h3>Hi, My name is Oleksandra.</h3>
-          <h3>I am Frontend developer based in Denmark.</h3>
+          <h3>I am Frontend Developer based in Denmark.</h3>
           <div className="about-photo--mobile">
             <img src="assets/photo.png" alt="" />
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            totam nulla aliquam, necessitatibus temporibus veritatis aperiam
-            voluptate facilis aspernatur nihil repudiandae doloribus sed esse
-            voluptatem quos illum neque quia. Autem.
+            I am educated in Computer Science and Project Management. I have
+            experience as a markup developer and I enjoy CSS a lot. In August
+            2022 I completed the HackYourFuture full-stack coding bootcamp in
+            Aarhus and continue to improve my acquired skills.
           </p>
         </div>
         <div className="about-photo">

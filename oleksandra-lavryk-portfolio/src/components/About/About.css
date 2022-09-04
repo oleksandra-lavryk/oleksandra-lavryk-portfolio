@@ -97,11 +97,11 @@
 
   .about-photo--mobile {
     width: 50%;
-    margin: 20px auto;
+    margin: 15px auto;
   }
 
   .about-text p {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 18px;
   }
 }

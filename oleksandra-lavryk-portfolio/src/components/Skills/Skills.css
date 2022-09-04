@@ -2,7 +2,6 @@
   padding-top: 100px;
   padding-bottom: 160px;
   background: #83A26C;
-  display: none;
 }
 
 #skills-section h2 {
@@ -16,8 +15,6 @@
 
 .skill-container {
   position: relative;
-  width: 650px;
-  height: 650px;
   margin: auto;
 
 }
@@ -64,11 +61,108 @@
   left: calc(50% - 60px);
   top: calc(50% - 60px);
   font-size: 20px;
+
 }
 
 @media screen and (max-width: 1599px) {
   #skills-section {
     padding-top: 70px;
     padding-bottom: 130px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+
+  #skills-section h2 {
+    margin-bottom: 95px;
+  }
+
+  .skill-item {
+    width: 100px;
+    line-height: 100px;
+    height: 100px;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #skills-section {
+    margin-top: 0;
+  }
+
+  .skill-background-image {
+    width: 260px;
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #skills-section h2 {
+    margin-bottom: 65px;
+    padding: 0 20px;
+  }
+
+  #skills-section {
+    padding-top: 30px;
+    border-top: 60px solid transparent;
+    margin: -60px 0 0;
+    background-clip: padding-box;
+    padding-bottom: 100px;
+  }
+
+  .skill-item {
+    width: 72px;
+    line-height: 72px;
+    height: 72px;
+    left: calc(50% - 36px);
+    top: calc(50% - 36px);
+    font-size: 12px;
+  }
+
+  .skill-background-image {
+    width: 215px;
+    height: 215px;
+  }
+}
+
+@media screen and (max-width: 449px) {
+  #skills-section h2 {
+    margin-bottom: 50px;
+  }
+
+  #skills-section {
+    padding-bottom: 75px;
+  }
+
+  .skill-item {
+    width: 58px;
+    line-height: 58px;
+    height: 58px;
+    left: calc(50% - 28px);
+    top: calc(50% - 28px);
+    font-size: 10px;
+  }
+
+  .skill-background-image {
+    width: 155px;
+    height: 155px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .skill-item {
+    width: 52px;
+    line-height: 52px;
+    height: 52px;
+    left: calc(50% - 26px);
+    top: calc(50% - 26px);
+    font-size: 9px;
+  }
+
+  .skill-background-image {
+    width: 135px;
+    height: 135px;
   }
 }
