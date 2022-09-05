@@ -11,10 +11,10 @@ export default function About() {
             <img src="assets/photo.png" alt="" />
           </div>
           <p>
-            I am educated in Computer Science and Project Management. I have
-            experience as a markup developer and I enjoy CSS a lot. In August
-            2022 I completed the HackYourFuture full-stack coding bootcamp in
-            Aarhus and continue to improve my acquired skills.
+            I am educated in Computer Science and Project Management. I really
+            enjoy HTML and CSS and I have experience as a markup developer. In
+            August 2022 I completed the HackYourFuture full-stack coding
+            bootcamp in Aarhus and continue to improve my acquired skills.
           </p>
         </div>
         <div className="about-photo">

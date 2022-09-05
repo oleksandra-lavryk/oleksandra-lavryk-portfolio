@@ -3,7 +3,7 @@ const projectList = [
     id: 1,
     image: "assets/project-4.png",
     name: "KAOSPILOT toolbox",
-    technologies: "ReactJS, Storybook, Swagger, NodeJS,KnexJS, MySQL",
+    technologies: "ReactJS, Storybook, Swagger, NodeJS, KnexJS, MySQL",
     description:
       "The Kaospilot Toolbox app was created as a result of teamwork on the final project of the HackYourFuture bootcamp. I participated in the development of frontend and backend tasks, designing the database scheme and creating migration and seed files.",
     url: "https://staging-kp-toolbox-fp-class21.herokuapp.com/",
@@ -15,7 +15,7 @@ const projectList = [
     name: "Meal Sharing",
     technologies: "ReactJS, NodeJS, MySQL, KnexJS, Heroku",
     description:
-      "This app is designed to share food. Users can add, view, rate, book, and search for meals.",
+      "This app is designed to share food. Users can add, view, rate, reserve meal, and search for meals.",
     url: "http://meal-sharing-lavryk.herokuapp.com/",
     gitUrl: "https://github.com/oleksandra-lavryk/meal-sharing",
   },
@@ -25,7 +25,7 @@ const projectList = [
     name: "GitHub User Searcher",
     technologies: "ReactJS",
     description:
-      "Its app for searching GitHub users by their name. It fetches data from a GitHub API and shows results with images, names, and links to the repository.",
+      "This app is intended for searching GitHub users by their names. It fetches data from a GitHub API and shows results with images, names, and links to the repository.",
     url: "https://oleksandra-lavryk.github.io/github-user-searcher/",
     gitUrl: "https://github.com/oleksandra-lavryk/github-user-searcher",
   },
@@ -35,7 +35,7 @@ const projectList = [
     name: "ToDo List",
     technologies: "ReactJS",
     description:
-      "This app  helps user add, delete, update and mark tasks as done.",
+      "This app helps user add, delete, update and mark tasks as done.",
     url: "https://oleksandra-lavryk.github.io/todo-list/",
     gitUrl: "https://github.com/oleksandra-lavryk/todo-list",
   },
