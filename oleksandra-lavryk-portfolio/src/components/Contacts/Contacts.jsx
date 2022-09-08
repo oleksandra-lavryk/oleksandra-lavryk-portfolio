@@ -1,13 +1,15 @@
 import "./Contacts.css";
 import cvPdf from "../../data/CV-Lavryk.pdf";
+import { useTranslation } from "react-i18next";
 
 export default function Contacts() {
+  const { t } = useTranslation();
   return (
     <section id="contacts-section">
-      <h2>Contacts</h2>
+      <h2>{t("contacts")}</h2>
       <div className="phone-address-wrapper">
         <a href="tel:+4550280082">+45 50 28 00 82</a>
-        <p>Haderslev, Denmark</p>
+        <p>{t("contacts-address")}</p>
       </div>
       <div className="contacts-social-icons">
         <a href="https://github.com/oleksandra-lavryk">

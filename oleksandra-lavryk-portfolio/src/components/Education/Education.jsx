@@ -1,29 +1,26 @@
 import "./Education.css";
+import { useTranslation } from "react-i18next";
 
 export default function Education() {
+  const { t } = useTranslation();
   return (
     <section id="education-section">
       <div className="container">
-        <h2>Education</h2>
+        <h2>{t("education")}</h2>
 
         <div className="text-paragraph-item">
           <p>
-            Kyiv National University of Civil Engineering and Architecture
-            <span> | Sep 2018 – Dec 2019</span>
+            {t("university")}
+            <span> | {t("university-first-month")}</span>
           </p>
-          <p>
-            Faculty of Automation and Information Technology. Project Management
-            Department. Master degree.
-          </p>
+          <p>{t("university-first-specoalization")}</p>
         </div>
         <div className="text-paragraph-item">
           <p>
-            Kyiv National University of Civil Engineering and Architecture
-            <span> | Sep 2015 – Jun 2018</span>
+            {t("university")}
+            <span> | {t("university-second-month")}</span>
           </p>
-          <p>
-            Faculty of Automation and Information Technology. Bachelor degree.
-          </p>
+          <p>{t("university-second-specoalization")}</p>
         </div>
       </div>
     </section>

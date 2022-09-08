@@ -44,8 +44,16 @@ header>.container {
 }
 
 .languages {
-  opacity: 0;
   margin-left: auto;
+  color: #83A26C;
+}
+
+.languages>span {
+  cursor: pointer;
+}
+
+.languages>span.active {
+  color: #ffffff;
 }
 
 .languages>span:first-child {
@@ -119,6 +127,11 @@ header>.container {
     display: block;
   }
 
+  .languages {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
   .header-nav {
     display: none;
   }
@@ -149,5 +162,11 @@ header>.container {
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
+  }
+}
+
+@media screen and (max-width:474px) {
+  .languages>span {
+    font-size: 13px;
   }
 }

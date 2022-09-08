@@ -1,10 +1,12 @@
 import "./Skills.css";
 import { useState, useEffect } from "react";
 import { skills } from "../../data/skills";
+import { useTranslation } from "react-i18next";
 
 const skillTranslateDeg = skills.length !== 0 ? 360 / skills.length : 0;
 
 export default function Skills() {
+  const { t } = useTranslation();
   const [divWidth, setDivWidth] = useState(0);
 
   let containerStyle = { width: divWidth, height: divWidth };
@@ -27,7 +29,9 @@ export default function Skills() {
 
   return (
     <section id="skills-section">
-      <h2>Skills &#38; Technologies</h2>
+      <h2>
+        {t("skills")} &#38; {t("technologies")}
+      </h2>
       <div className="skill-container" style={containerStyle}>
         {skills.map((item, index) => {
           let divTransformStyle = {
