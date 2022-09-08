@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oleksandra-lavryk-portfolio/static/css/main.812ff7ec.css",
-    "main.js": "/oleksandra-lavryk-portfolio/static/js/main.297035bc.js",
+    "main.css": "/oleksandra-lavryk-portfolio/static/css/main.b6025a40.css",
+    "main.js": "/oleksandra-lavryk-portfolio/static/js/main.8ffff855.js",
     "static/js/787.078c3c4d.chunk.js": "/oleksandra-lavryk-portfolio/static/js/787.078c3c4d.chunk.js",
     "static/media/CV-Lavryk.pdf": "/oleksandra-lavryk-portfolio/static/media/CV-Lavryk.b4bcea16bfeac93d4303.pdf",
     "static/media/experience-background.svg": "/oleksandra-lavryk-portfolio/static/media/experience-background.a9ccaf8511d29123ba58.svg",
@@ -10,12 +10,12 @@
     "static/media/education-background.svg": "/oleksandra-lavryk-portfolio/static/media/education-background.c3558e5f84add817599a.svg",
     "static/media/education-pin.svg": "/oleksandra-lavryk-portfolio/static/media/education-pin.783d3fa82d07b7db8c04.svg",
     "index.html": "/oleksandra-lavryk-portfolio/index.html",
-    "main.812ff7ec.css.map": "/oleksandra-lavryk-portfolio/static/css/main.812ff7ec.css.map",
-    "main.297035bc.js.map": "/oleksandra-lavryk-portfolio/static/js/main.297035bc.js.map",
+    "main.b6025a40.css.map": "/oleksandra-lavryk-portfolio/static/css/main.b6025a40.css.map",
+    "main.8ffff855.js.map": "/oleksandra-lavryk-portfolio/static/js/main.8ffff855.js.map",
     "787.078c3c4d.chunk.js.map": "/oleksandra-lavryk-portfolio/static/js/787.078c3c4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.812ff7ec.css",
-    "static/js/main.297035bc.js"
+    "static/css/main.b6025a40.css",
+    "static/js/main.8ffff855.js"
   ]
 }
