@@ -6,7 +6,7 @@ const projectList = [
     technologies: "ReactJS, Storybook, Swagger, NodeJS, KnexJS, MySQL",
     description:
       "The Kaospilot Toolbox app was created as a result of teamwork on the final project of the HackYourFuture bootcamp. I participated in the development of frontend and backend tasks, designing the database scheme and creating migration and seed files.",
-    url: "https://staging-kp-toolbox-fp-class21.herokuapp.com/",
+    url: "https://www.feats.co/project/kaospilot-toolbox",
     gitUrl: "https://github.com/HackYourFuture-CPH/kp-toolbox-fp-class21",
   },
   {
@@ -16,7 +16,7 @@ const projectList = [
     technologies: "ReactJS, NodeJS, MySQL, KnexJS, Heroku",
     description:
       "This app is designed to share food. Users can add, view, rate, reserve meal, and search for meals.",
-    url: "http://meal-sharing-lavryk.herokuapp.com/",
+    url: "",
     gitUrl: "https://github.com/oleksandra-lavryk/meal-sharing",
   },
   {

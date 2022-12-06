@@ -21,7 +21,13 @@ export default function Contacts() {
         <a href="mailto:oleksandra.lavryk96@gmail.com">
           <img src="assets/email.svg" alt="" />
         </a>
-        <a href={cvPdf} download="Lavryk CV" target="_blank" rel="noreferrer">
+        <a
+          style={{ display: "none" }}
+          href={cvPdf}
+          download="Lavryk CV"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src="assets/cv-download.svg" alt="" />
         </a>
       </div>

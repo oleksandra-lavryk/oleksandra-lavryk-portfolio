@@ -12,9 +12,14 @@ export default function ProjectItem({ project }) {
 
           <p className="description">{project.description}</p>
           <div className="project-item-links">
-            <a href={project.url} target="_blank" rel="noreferrer">
-              Link
-            </a>
+            {project.url ? (
+              <a href={project.url} target="_blank" rel="noreferrer">
+                Link
+              </a>
+            ) : (
+              ""
+            )}
+
             <a href={project.gitUrl} target="_blank" rel="noreferrer">
               GitHub
             </a>
