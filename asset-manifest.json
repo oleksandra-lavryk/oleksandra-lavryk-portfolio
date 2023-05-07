@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/oleksandra-lavryk-portfolio/static/css/main.b6025a40.css",
-    "main.js": "/oleksandra-lavryk-portfolio/static/js/main.22acb231.js",
+    "main.css": "/oleksandra-lavryk-portfolio/static/css/main.fd819314.css",
+    "main.js": "/oleksandra-lavryk-portfolio/static/js/main.390add45.js",
     "static/js/787.078c3c4d.chunk.js": "/oleksandra-lavryk-portfolio/static/js/787.078c3c4d.chunk.js",
     "static/media/CV-Lavryk.pdf": "/oleksandra-lavryk-portfolio/static/media/CV-Lavryk.bd18e6ceb5ec9abe1e4c.pdf",
-    "static/media/experience-background.svg": "/oleksandra-lavryk-portfolio/static/media/experience-background.a9ccaf8511d29123ba58.svg",
-    "static/media/experience-pin.svg": "/oleksandra-lavryk-portfolio/static/media/experience-pin.c7caec8d5edfa2c4e0f1.svg",
-    "static/media/skills-background.svg": "/oleksandra-lavryk-portfolio/static/media/skills-background.4b2c95160134cc8582ac.svg",
+    "static/media/experience-background.svg": "/oleksandra-lavryk-portfolio/static/media/experience-background.f2ad2ce6bbc6f055b10b.svg",
+    "static/media/experience-pin.svg": "/oleksandra-lavryk-portfolio/static/media/experience-pin.27fab660658b5d1fe6ec.svg",
+    "static/media/skills-background.svg": "/oleksandra-lavryk-portfolio/static/media/skills-background.c127581e28df8259e187.svg",
     "static/media/education-background.svg": "/oleksandra-lavryk-portfolio/static/media/education-background.c3558e5f84add817599a.svg",
     "static/media/education-pin.svg": "/oleksandra-lavryk-portfolio/static/media/education-pin.783d3fa82d07b7db8c04.svg",
     "index.html": "/oleksandra-lavryk-portfolio/index.html",
-    "main.b6025a40.css.map": "/oleksandra-lavryk-portfolio/static/css/main.b6025a40.css.map",
-    "main.22acb231.js.map": "/oleksandra-lavryk-portfolio/static/js/main.22acb231.js.map",
+    "main.fd819314.css.map": "/oleksandra-lavryk-portfolio/static/css/main.fd819314.css.map",
+    "main.390add45.js.map": "/oleksandra-lavryk-portfolio/static/js/main.390add45.js.map",
     "787.078c3c4d.chunk.js.map": "/oleksandra-lavryk-portfolio/static/js/787.078c3c4d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6025a40.css",
-    "static/js/main.22acb231.js"
+    "static/css/main.fd819314.css",
+    "static/js/main.390add45.js"
   ]
 }
