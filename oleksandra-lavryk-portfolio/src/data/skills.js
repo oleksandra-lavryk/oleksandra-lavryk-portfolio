@@ -33,11 +33,11 @@ const skills = [
   },
   {
     id: 9,
-    name: "Figma",
+    name: "TypeScript",
   },
   {
     id: 10,
-    name: "Storybook",
+    name: "MongoDB",
   },
 ];
 export { skills };

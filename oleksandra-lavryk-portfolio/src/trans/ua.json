@@ -9,15 +9,23 @@
   "technologies": "Технології",
   "about-title-first": "Привіт, мене звати Олександра",
   "about-title-second": "Я Frontend Developer, зараз живу в Данії",
-  "about-text": "Я бакалавр комп'ютерних наук та магістр в галузі управління проектами. Мені дуже подобаються HTML та CSS і я маю досвід роботи як markup developer. У серпні 2022 року я завершила курси програмування HackYourFuture в Орхусі та продовжую вдосконалювати свої набуті навички.",
+  "about-text": "Я бакалавр комп'ютерних наук та магістр в галузі управління проектами. Мені дуже подобаються HTML та CSS і я маю досвід роботи як markup developer. Я завершила курси програмування HackYourFuture в Орхусі та зараз працюю як Frontend Developer інтерн в компанії NordInsight.",
   "university": "Київський національний університет будівництва і архітектури",
-  "university-first-month": "09/2018 – 12/2019",
-  "university-first-specoalization": "Факультет автоматизації і інформаційних технологій. Освітня програма Управління проектами. Ступінь магістра.",
-  "university-second-month": "09/2015 – 06/2018",
-  "university-second-specoalization": "Факультет автоматизації і інформаційних технологій. Напрям підготовки Комп'ютерні науки. Ступінь бакалавра.",
-  "experience-title-first": "HackYourFuture Denmark, курс програмування full-stack ",
-  "experience-month-first": "11/2021 – 08/2022",
-  "experience-info-first": "Курс програмування, навчальна програма якого охорлює всі аспекти full-stack розробки, зокрема HTML, CSS, JavaScript, NodeJS, MySQL і ReactJS.",
+  
+  "university-first": "HackYourFuture Denmark, курс програмування full-stack",
+  "university-first-month": "11/2021 – 08/2022",
+  "university-first-specoalization": "Курс програмування, навчальна програма якого охорлює всі аспекти full-stack розробки, зокрема HTML, CSS, JavaScript, NodeJS, MySQL і ReactJS.", 
+
+  "university-second-month": "09/2018 – 12/2019",
+  "university-second-specoalization": "Факультет автоматизації і інформаційних технологій. Освітня програма Управління проектами. Ступінь магістра.",
+  
+  "university-third-month": "09/2015 – 06/2018",
+  "university-third-specoalization": "Факультет автоматизації і інформаційних технологій. Напрям підготовки Комп'ютерні науки. Ступінь бакалавра.",
+  
+  "experience-title-first": "Frontend Developer Intern в компанії NordInsight",
+  "experience-month-first": "01/2023 – 06/2023",
+  "experience-info-first": "В мої обов'язки входило розробка нових функцій та сторінок, а також рефакторинг нявного функціоналу відповідно до змін моделі даних.",
+  
   "experience-title-second": "Markup Developer",
   "experience-month-second": "02/2020 – 03/2022",
   "experience-info-second": "В мої обов'язки входило верстати сайти на основі шаблонів OpenCart та WordPress відповідно до дизайну наданому в Photoshop або Figma."
