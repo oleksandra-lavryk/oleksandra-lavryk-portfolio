@@ -1,0 +1,51 @@
+#education-section {
+  padding-bottom: 100px;
+  background-image: url("../../../public/assets/education-background.svg");
+  background-repeat: no-repeat;
+  background-position: 98% top;
+  background-size: 350px;
+}
+
+
+#education-section .text-paragraph-item::before {
+  background-image: url("../../../public/assets/education-pin.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 1599px) {
+  #education-section {
+    padding-bottom: 70px;
+    background-size: 240px;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  #education-section {
+    background-size: 200px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  #education-section {
+    background-size: 165px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #education-section {
+    background-size: 125px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #education-section {
+    background-size: 90px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  #education-section {
+    background-size: 70px;
+  }
+}

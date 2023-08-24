@@ -1,0 +1,36 @@
+#projects-section {
+  padding: 100px 0;
+}
+
+.project-grid-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 68px;
+}
+
+@media screen and (max-width: 1599px) {
+  #projects-section {
+    padding: 70px 0;
+  }
+
+  .project-grid-wrapper {
+    gap: 50px;
+  }
+
+}
+
+@media screen and (max-width: 1399px) {
+
+  .project-grid-wrapper {
+    gap: 35px;
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+
+  .project-grid-wrapper {
+    gap: 25px;
+  }
+
+}
