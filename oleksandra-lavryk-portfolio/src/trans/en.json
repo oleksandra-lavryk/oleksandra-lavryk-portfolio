@@ -9,7 +9,7 @@
   "technologies": "Technologies",
   "about-title-first": "Hi, My name is Oleksandra",
   "about-title-second": "I am Frontend Developer based in Denmark",
-  "about-text": "I am educated in Computer Science and Project Management. I really enjoy HTML and CSS and I have experience as a Markup Developer. I completed the HackYourFuture full-stack coding bootcamp in Aarhus and working as a Frontend Developer Intern at NordInsight.",
+  "about-text": "I am a motivated web developer with experience as a frontend developer intern at a Danish startup. I enjoy collaborating and working in a team.  I completed the HackYourFuture 9-month full-stack coding bootcamp in Aarhus.",
   "university": "Kyiv National University of Civil Engineering and Architecture",
 
   "university-first": "HackYourFuture Denmark, Web Development",
@@ -23,10 +23,10 @@
   "university-third-specoalization": "Faculty of Automation and Information Technology. Bachelor degree.",
   
   "experience-title-first": "Frontend Developer Intern at NordInsight",
-  "experience-month-first": "Jan 2023 – June 2023",
-  "experience-info-first": "Working on frontend and full stack tasks, developing new features and pages. Adjusting existing functionality to the new data model.",
+  "experience-month-first": "Jan 2023 – Aug 2023",
+  "experience-info-first": "Worked with both fronted and fullstack tasks using: ReactJS, TypeScript, NodeJS, MongoDB. Developed possibility for user save preferred text size on the website and infinite scroll for search result. Created page for admin to manage users access to the website. Adjusted existing functionality to the new data model.",
   
   "experience-title-second": "Markup Developer",
   "experience-month-second": "Feb 2020 – Mar 2022",
-  "experience-info-second": "HTML/CSS coding using OpenCart and WordPress templates. I was responsible for changing styles and layouts for OpenCart or WordPress themes following the design developed in Photoshop or Figma."
+  "experience-info-second": "HTML/CSS coding using OpenCart and WordPress templates. I was responsible for changing styles and layouts for OpenCart or WordPress themes following the design developed in Photoshop or Figma. I managed content of the websites and made adjustments in admin panel settings."
 }

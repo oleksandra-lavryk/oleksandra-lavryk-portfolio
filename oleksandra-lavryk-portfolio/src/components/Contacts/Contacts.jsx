@@ -8,7 +8,6 @@ export default function Contacts() {
     <section id="contacts-section">
       <h2>{t("contacts")}</h2>
       <div className="phone-address-wrapper">
-        <a href="tel:+4550280082">+45 50 28 00 82</a>
         <p>{t("contacts-address")}</p>
       </div>
       <div className="contacts-social-icons">
