@@ -20,6 +20,16 @@ const projectList = [
     gitUrl: "https://github.com/oleksandra-lavryk/meal-sharing",
   },
   {
+    id: 5,
+    image: "assets/project-5.png",
+    name: "Nature",
+    technologies: "HTML, CSS, SCSS",
+    description:
+      "This website was developed during education on 'Advanced CSS and Sass' course on UDEMY.",
+    url: "https://github.com/oleksandra-lavryk/nature/packages",
+    gitUrl: "https://github.com/oleksandra-lavryk/nature",
+  },
+  {
     id: 3,
     image: "assets/project-3.png",
     name: "GitHub User Searcher",
